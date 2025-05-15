@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f93ad3c7de1a0141857bdf9afbb01228 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f93ad3c7de1a0141857bdf9afbb01228" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f93ad3c7de1a0141857bdf9afbb01228 = L.map(
+                "map_f93ad3c7de1a0141857bdf9afbb01228",
+                {
+                    center: [20.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ec499f3b11554e90abcd72d589d0a4f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f93ad3c7de1a0141857bdf9afbb01228);
+        
+    
+            var marker_cluster_73d45edf3fb18be4cca4cccf17d160ab = L.markerClusterGroup(
+                {}
+            );
+            map_f93ad3c7de1a0141857bdf9afbb01228.addLayer(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var marker_f4b9a1438aac52da03afa2ed4bb962df = L.marker(
+                [55.3781, -3.436],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b8c7fe97b8bcc50479fca22c87d61d37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4b9a1438aac52da03afa2ed4bb962df.setIcon(icon_b8c7fe97b8bcc50479fca22c87d61d37);
+        
+    
+        var popup_a218ba93af4b3984160b4d4588e709ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34d391c5a79d1c2fd552c8c58590a89b = $(`<div id="html_34d391c5a79d1c2fd552c8c58590a89b" style="width: 100.0%; height: 100.0%;"><b>United Kingdom</b><br>Golf Courses: 3170<br>🌧️ Precipitation: 1220 mm/year<br>🌡️ Temperature: 8.8 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_a218ba93af4b3984160b4d4588e709ab.setContent(html_34d391c5a79d1c2fd552c8c58590a89b);
+        
+
+        marker_f4b9a1438aac52da03afa2ed4bb962df.bindPopup(popup_a218ba93af4b3984160b4d4588e709ab)
+        ;
+
+        
+    
+    
+            var marker_a22d58622e67a834b1986728bc499f88 = L.marker(
+                [47.5162, 14.5501],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_5b2692e8995b15a21f9c0355b800cbab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a22d58622e67a834b1986728bc499f88.setIcon(icon_5b2692e8995b15a21f9c0355b800cbab);
+        
+    
+        var popup_55f6b4f94b80e73f6cc436c5f2e86def = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a5f3b16959e7163c0cd11414434c19f = $(`<div id="html_6a5f3b16959e7163c0cd11414434c19f" style="width: 100.0%; height: 100.0%;"><b>Austria</b><br>Golf Courses: 184<br>🌧️ Precipitation: 1110 mm/year<br>🌡️ Temperature: 7.8 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_55f6b4f94b80e73f6cc436c5f2e86def.setContent(html_6a5f3b16959e7163c0cd11414434c19f);
+        
+
+        marker_a22d58622e67a834b1986728bc499f88.bindPopup(popup_55f6b4f94b80e73f6cc436c5f2e86def)
+        ;
+
+        
+    
+    
+            var marker_fcea56b54c0daf13e6f876bf0f7f2bed = L.marker(
+                [40.4637, -3.7492],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_29caaff6c9597c6c696f060784fb01dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fcea56b54c0daf13e6f876bf0f7f2bed.setIcon(icon_29caaff6c9597c6c696f060784fb01dc);
+        
+    
+        var popup_ce83483468db4ac67aed8d60cbfb127b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4180428d9cc035ddb4fd292102dc7ae = $(`<div id="html_a4180428d9cc035ddb4fd292102dc7ae" style="width: 100.0%; height: 100.0%;"><b>Spain</b><br>Golf Courses: 497<br>🌧️ Precipitation: 636 mm/year<br>🌡️ Temperature: 14.1 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_ce83483468db4ac67aed8d60cbfb127b.setContent(html_a4180428d9cc035ddb4fd292102dc7ae);
+        
+
+        marker_fcea56b54c0daf13e6f876bf0f7f2bed.bindPopup(popup_ce83483468db4ac67aed8d60cbfb127b)
+        ;
+
+        
+    
+    
+            var marker_c2cd962a8ed488702e0492bbac0b6584 = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_4dcf046148e27cac32fb7b64a08146af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c2cd962a8ed488702e0492bbac0b6584.setIcon(icon_4dcf046148e27cac32fb7b64a08146af);
+        
+    
+        var popup_2465175099e9966772e8c7c50377a071 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94dadd88a69316c607b88e6f892c8221 = $(`<div id="html_94dadd88a69316c607b88e6f892c8221" style="width: 100.0%; height: 100.0%;"><b>Germany</b><br>Golf Courses: 1050<br>🌧️ Precipitation: 700 mm/year<br>🌡️ Temperature: 8.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_2465175099e9966772e8c7c50377a071.setContent(html_94dadd88a69316c607b88e6f892c8221);
+        
+
+        marker_c2cd962a8ed488702e0492bbac0b6584.bindPopup(popup_2465175099e9966772e8c7c50377a071)
+        ;
+
+        
+    
+    
+            var marker_7e5547fd15b6c118d903eb6608803666 = L.marker(
+                [46.6034, 1.8883],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_74d70be2f46793adde69be7c14ddc2fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7e5547fd15b6c118d903eb6608803666.setIcon(icon_74d70be2f46793adde69be7c14ddc2fd);
+        
+    
+        var popup_ce5faac6b9426dcf5b097f7804063996 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_076015801b4baede8811ff146ab3140a = $(`<div id="html_076015801b4baede8811ff146ab3140a" style="width: 100.0%; height: 100.0%;"><b>France</b><br>Golf Courses: 804<br>🌧️ Precipitation: 867 mm/year<br>🌡️ Temperature: 11.8 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_ce5faac6b9426dcf5b097f7804063996.setContent(html_076015801b4baede8811ff146ab3140a);
+        
+
+        marker_7e5547fd15b6c118d903eb6608803666.bindPopup(popup_ce5faac6b9426dcf5b097f7804063996)
+        ;
+
+        
+    
+    
+            var marker_14bdbea3783b4026b4642c35af471566 = L.marker(
+                [41.8719, 12.5674],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_74586ace1921c5baf07372a4485c2a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14bdbea3783b4026b4642c35af471566.setIcon(icon_74586ace1921c5baf07372a4485c2a24);
+        
+    
+        var popup_7f8833e9c001443a886b6b21e0f84c77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad8f9522659984b34395d1275b649a38 = $(`<div id="html_ad8f9522659984b34395d1275b649a38" style="width: 100.0%; height: 100.0%;"><b>Italy</b><br>Golf Courses: 321<br>🌧️ Precipitation: 832 mm/year<br>🌡️ Temperature: 13.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_7f8833e9c001443a886b6b21e0f84c77.setContent(html_ad8f9522659984b34395d1275b649a38);
+        
+
+        marker_14bdbea3783b4026b4642c35af471566.bindPopup(popup_7f8833e9c001443a886b6b21e0f84c77)
+        ;
+
+        
+    
+    
+            var marker_a3753d4a7d06e49f50d952bc5e8fb6f7 = L.marker(
+                [52.1326, 5.2913],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_8c679549663335d6fa3baebe5fb1d246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a3753d4a7d06e49f50d952bc5e8fb6f7.setIcon(icon_8c679549663335d6fa3baebe5fb1d246);
+        
+    
+        var popup_345e2efe8491cc5af7a78816b2b78cfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c70f3edb3c2660023049a66966a2fc = $(`<div id="html_77c70f3edb3c2660023049a66966a2fc" style="width: 100.0%; height: 100.0%;"><b>Netherlands</b><br>Golf Courses: 330<br>🌧️ Precipitation: 778 mm/year<br>🌡️ Temperature: 9.5 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_345e2efe8491cc5af7a78816b2b78cfb.setContent(html_77c70f3edb3c2660023049a66966a2fc);
+        
+
+        marker_a3753d4a7d06e49f50d952bc5e8fb6f7.bindPopup(popup_345e2efe8491cc5af7a78816b2b78cfb)
+        ;
+
+        
+    
+    
+            var marker_2684ae49a68d1a475b7ab220e874722d = L.marker(
+                [53.4129, -8.2439],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_c75354148927445971faa833aafa4b51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2684ae49a68d1a475b7ab220e874722d.setIcon(icon_c75354148927445971faa833aafa4b51);
+        
+    
+        var popup_5d89252b7829f795c0acac96fbb365d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_753220a61bf7a044623138b0251425e5 = $(`<div id="html_753220a61bf7a044623138b0251425e5" style="width: 100.0%; height: 100.0%;"><b>Ireland</b><br>Golf Courses: 494<br>🌧️ Precipitation: 1118 mm/year<br>🌡️ Temperature: 9.4 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_5d89252b7829f795c0acac96fbb365d7.setContent(html_753220a61bf7a044623138b0251425e5);
+        
+
+        marker_2684ae49a68d1a475b7ab220e874722d.bindPopup(popup_5d89252b7829f795c0acac96fbb365d7)
+        ;
+
+        
+    
+    
+            var marker_1939714e58344bbc4efbdd775d4e33e8 = L.marker(
+                [60.1282, 18.6435],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_fa1841eb33d9b84ec2e2c3a1213cb075 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1939714e58344bbc4efbdd775d4e33e8.setIcon(icon_fa1841eb33d9b84ec2e2c3a1213cb075);
+        
+    
+        var popup_9f1b7af275174b815a4ed2487fcb800b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dbc8eba3e319f1262f9931be3336b16 = $(`<div id="html_2dbc8eba3e319f1262f9931be3336b16" style="width: 100.0%; height: 100.0%;"><b>Sweden</b><br>Golf Courses: 662<br>🌧️ Precipitation: 624 mm/year<br>🌡️ Temperature: 2.1 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_9f1b7af275174b815a4ed2487fcb800b.setContent(html_2dbc8eba3e319f1262f9931be3336b16);
+        
+
+        marker_1939714e58344bbc4efbdd775d4e33e8.bindPopup(popup_9f1b7af275174b815a4ed2487fcb800b)
+        ;
+
+        
+    
+    
+            var marker_2dd0e2fa180a3b3fc7f8c33938c433a9 = L.marker(
+                [56.4907, -4.2026],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_f13a0376e0d4a684ae65ce1ccfffb72c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2dd0e2fa180a3b3fc7f8c33938c433a9.setIcon(icon_f13a0376e0d4a684ae65ce1ccfffb72c);
+        
+    
+        var popup_8e2c8a46acc17b50339062128958d2f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5ae506c06b59d88c073832961b20e64 = $(`<div id="html_a5ae506c06b59d88c073832961b20e64" style="width: 100.0%; height: 100.0%;"><b>Scotland</b><br>Golf Courses: 614<br>🌧️ Precipitation: 1220 mm/year<br>🌡️ Temperature: 8.8 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_8e2c8a46acc17b50339062128958d2f5.setContent(html_a5ae506c06b59d88c073832961b20e64);
+        
+
+        marker_2dd0e2fa180a3b3fc7f8c33938c433a9.bindPopup(popup_8e2c8a46acc17b50339062128958d2f5)
+        ;
+
+        
+    
+    
+            var marker_34486bb49261e9108de5a1ff0744eca9 = L.marker(
+                [39.3999, -8.2245],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_936501d232b558a57881c0be60a67a0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_34486bb49261e9108de5a1ff0744eca9.setIcon(icon_936501d232b558a57881c0be60a67a0f);
+        
+    
+        var popup_0f21ab2c5d13c6e204c21b59dcac586f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e0a441ffb83f74abcdb20f64103d1a6 = $(`<div id="html_7e0a441ffb83f74abcdb20f64103d1a6" style="width: 100.0%; height: 100.0%;"><b>Portugal</b><br>Golf Courses: 90<br>🌧️ Precipitation: 854 mm/year<br>🌡️ Temperature: 15.1 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_0f21ab2c5d13c6e204c21b59dcac586f.setContent(html_7e0a441ffb83f74abcdb20f64103d1a6);
+        
+
+        marker_34486bb49261e9108de5a1ff0744eca9.bindPopup(popup_0f21ab2c5d13c6e204c21b59dcac586f)
+        ;
+
+        
+    
+    
+            var marker_bcbba7798459a74766883ff18b674060 = L.marker(
+                [39.0742, 21.8243],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_514f256dba1e9b94302a1ca3ede92728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bcbba7798459a74766883ff18b674060.setIcon(icon_514f256dba1e9b94302a1ca3ede92728);
+        
+    
+        var popup_0b37fa7063ddbe78246ac8b6befd97be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b5a6d9c1ce5d10b83ad92a3409336e6 = $(`<div id="html_9b5a6d9c1ce5d10b83ad92a3409336e6" style="width: 100.0%; height: 100.0%;"><b>Greece</b><br>Golf Courses: 120<br>🌧️ Precipitation: 652 mm/year<br>🌡️ Temperature: 15.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_0b37fa7063ddbe78246ac8b6befd97be.setContent(html_9b5a6d9c1ce5d10b83ad92a3409336e6);
+        
+
+        marker_bcbba7798459a74766883ff18b674060.bindPopup(popup_0b37fa7063ddbe78246ac8b6befd97be)
+        ;
+
+        
+    
+    
+            var marker_2c83cfead04cfc67341298cb692fcc2e = L.marker(
+                [47.1625, 19.5033],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_acc472cec88af7381775469fb5d85302 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c83cfead04cfc67341298cb692fcc2e.setIcon(icon_acc472cec88af7381775469fb5d85302);
+        
+    
+        var popup_2ec164c19e0ba0c937416d9e8ea80f1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78d2c00f368cf50438106d9467015bbb = $(`<div id="html_78d2c00f368cf50438106d9467015bbb" style="width: 100.0%; height: 100.0%;"><b>Hungary</b><br>Golf Courses: 60<br>🌧️ Precipitation: 600 mm/year<br>🌡️ Temperature: 10.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_2ec164c19e0ba0c937416d9e8ea80f1b.setContent(html_78d2c00f368cf50438106d9467015bbb);
+        
+
+        marker_2c83cfead04cfc67341298cb692fcc2e.bindPopup(popup_2ec164c19e0ba0c937416d9e8ea80f1b)
+        ;
+
+        
+    
+    
+            var marker_1fd0670218833a104b1ca62f2427c1e9 = L.marker(
+                [45.9432, 24.9668],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_3c1dd09841fe28f829d7e1cc4299717d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1fd0670218833a104b1ca62f2427c1e9.setIcon(icon_3c1dd09841fe28f829d7e1cc4299717d);
+        
+    
+        var popup_e6a5d0df995eff87e8669767775d0af6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bab09c8f09f90369504aa9895c8e77d = $(`<div id="html_4bab09c8f09f90369504aa9895c8e77d" style="width: 100.0%; height: 100.0%;"><b>Romania</b><br>Golf Courses: 50<br>🌧️ Precipitation: 637 mm/year<br>🌡️ Temperature: 9.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_e6a5d0df995eff87e8669767775d0af6.setContent(html_4bab09c8f09f90369504aa9895c8e77d);
+        
+
+        marker_1fd0670218833a104b1ca62f2427c1e9.bindPopup(popup_e6a5d0df995eff87e8669767775d0af6)
+        ;
+
+        
+    
+    
+            var marker_ac28e0e6e6431918fb587d5fbe1d638e = L.marker(
+                [42.7339, 25.4858],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_aaf255201575388886f94eaa289b346a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac28e0e6e6431918fb587d5fbe1d638e.setIcon(icon_aaf255201575388886f94eaa289b346a);
+        
+    
+        var popup_65b169df85d411953532382d606cd0f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b29659e95b411c271ae9f5cc7bcf401 = $(`<div id="html_2b29659e95b411c271ae9f5cc7bcf401" style="width: 100.0%; height: 100.0%;"><b>Bulgaria</b><br>Golf Courses: 40<br>🌧️ Precipitation: 608 mm/year<br>🌡️ Temperature: 10.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_65b169df85d411953532382d606cd0f8.setContent(html_2b29659e95b411c271ae9f5cc7bcf401);
+        
+
+        marker_ac28e0e6e6431918fb587d5fbe1d638e.bindPopup(popup_65b169df85d411953532382d606cd0f8)
+        ;
+
+        
+    
+    
+            var marker_adff898ed2d02f7dfa8445127f492783 = L.marker(
+                [51.9194, 19.1451],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_a94f21f665092c63ebdf3a6edb5e8060 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_adff898ed2d02f7dfa8445127f492783.setIcon(icon_a94f21f665092c63ebdf3a6edb5e8060);
+        
+    
+        var popup_e125ee64ede57bf52e7d71756140a68f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd5f9f8c510133d2b1ee02945e57b094 = $(`<div id="html_dd5f9f8c510133d2b1ee02945e57b094" style="width: 100.0%; height: 100.0%;"><b>Poland</b><br>Golf Courses: 80<br>🌧️ Precipitation: 600 mm/year<br>🌡️ Temperature: 7.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_e125ee64ede57bf52e7d71756140a68f.setContent(html_dd5f9f8c510133d2b1ee02945e57b094);
+        
+
+        marker_adff898ed2d02f7dfa8445127f492783.bindPopup(popup_e125ee64ede57bf52e7d71756140a68f)
+        ;
+
+        
+    
+    
+            var marker_3da3f7013c3c461b1fa8d36743d14415 = L.marker(
+                [49.8175, 15.473],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_9738c569a850357420b346af839aaa5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3da3f7013c3c461b1fa8d36743d14415.setIcon(icon_9738c569a850357420b346af839aaa5c);
+        
+    
+        var popup_db6e98b9280de5528e29c5dff3e134fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39d8d21c175f4661ed3b69b3cdf3072c = $(`<div id="html_39d8d21c175f4661ed3b69b3cdf3072c" style="width: 100.0%; height: 100.0%;"><b>Czech Republic</b><br>Golf Courses: 70<br>🌧️ Precipitation: 600 mm/year<br>🌡️ Temperature: 7.8 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_db6e98b9280de5528e29c5dff3e134fb.setContent(html_39d8d21c175f4661ed3b69b3cdf3072c);
+        
+
+        marker_3da3f7013c3c461b1fa8d36743d14415.bindPopup(popup_db6e98b9280de5528e29c5dff3e134fb)
+        ;
+
+        
+    
+    
+            var marker_1d736144d728beac9fac4a637d55deb7 = L.marker(
+                [45.1, 15.2],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_c8cb31319a2e5a51b74a0a14e095468e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1d736144d728beac9fac4a637d55deb7.setIcon(icon_c8cb31319a2e5a51b74a0a14e095468e);
+        
+    
+        var popup_dc0cd2501f1640ab2a6ce6df2e34386a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71adc5736c471528c8a2ff76886087f5 = $(`<div id="html_71adc5736c471528c8a2ff76886087f5" style="width: 100.0%; height: 100.0%;"><b>Croatia</b><br>Golf Courses: 65<br>🌧️ Precipitation: 1113 mm/year<br>🌡️ Temperature: 11.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_dc0cd2501f1640ab2a6ce6df2e34386a.setContent(html_71adc5736c471528c8a2ff76886087f5);
+        
+
+        marker_1d736144d728beac9fac4a637d55deb7.bindPopup(popup_dc0cd2501f1640ab2a6ce6df2e34386a)
+        ;
+
+        
+    
+    
+            var marker_c048ce710e100bf304fccc8338fde603 = L.marker(
+                [46.1512, 14.9955],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_9f27611d3d19a5fe4964cdc33497e580 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c048ce710e100bf304fccc8338fde603.setIcon(icon_9f27611d3d19a5fe4964cdc33497e580);
+        
+    
+        var popup_d8c11e8dcd1d9cec14c68663940e4f9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_980a414c419ea9934b59bb5fcd2204f1 = $(`<div id="html_980a414c419ea9934b59bb5fcd2204f1" style="width: 100.0%; height: 100.0%;"><b>Slovenia</b><br>Golf Courses: 45<br>🌧️ Precipitation: 1162 mm/year<br>🌡️ Temperature: 10.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_d8c11e8dcd1d9cec14c68663940e4f9b.setContent(html_980a414c419ea9934b59bb5fcd2204f1);
+        
+
+        marker_c048ce710e100bf304fccc8338fde603.bindPopup(popup_d8c11e8dcd1d9cec14c68663940e4f9b)
+        ;
+
+        
+    
+    
+            var marker_463d0492ca5f69a4239249e12cc89ee2 = L.marker(
+                [60.472, 8.4689],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_7cc4e55b7622ded8cd99b77d13e82217 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_463d0492ca5f69a4239249e12cc89ee2.setIcon(icon_7cc4e55b7622ded8cd99b77d13e82217);
+        
+    
+        var popup_f0297f0a340b62983becf765aa5e252a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eadb57bd68730dae679bad44f353fab1 = $(`<div id="html_eadb57bd68730dae679bad44f353fab1" style="width: 100.0%; height: 100.0%;"><b>Norway</b><br>Golf Courses: 170<br>🌧️ Precipitation: 1414 mm/year<br>🌡️ Temperature: 1.5 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_f0297f0a340b62983becf765aa5e252a.setContent(html_eadb57bd68730dae679bad44f353fab1);
+        
+
+        marker_463d0492ca5f69a4239249e12cc89ee2.bindPopup(popup_f0297f0a340b62983becf765aa5e252a)
+        ;
+
+        
+    
+    
+            var marker_7a29d77c0acc7eb5c4216b677c82754e = L.marker(
+                [61.9241, 25.7482],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_9296e00169ce7a10476aab98cc204579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7a29d77c0acc7eb5c4216b677c82754e.setIcon(icon_9296e00169ce7a10476aab98cc204579);
+        
+    
+        var popup_bda2598e12428a3b06bcb96ace801994 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da52a087f87868a810325bcfba12d7e3 = $(`<div id="html_da52a087f87868a810325bcfba12d7e3" style="width: 100.0%; height: 100.0%;"><b>Finland</b><br>Golf Courses: 150<br>🌧️ Precipitation: 536 mm/year<br>🌡️ Temperature: 1.7 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_bda2598e12428a3b06bcb96ace801994.setContent(html_da52a087f87868a810325bcfba12d7e3);
+        
+
+        marker_7a29d77c0acc7eb5c4216b677c82754e.bindPopup(popup_bda2598e12428a3b06bcb96ace801994)
+        ;
+
+        
+    
+    
+            var marker_5ab08b0fbf9905f2078ca4212d10546e = L.marker(
+                [37.0902, -95.7129],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_9202202c3581c7657c2ac3e38c433f6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ab08b0fbf9905f2078ca4212d10546e.setIcon(icon_9202202c3581c7657c2ac3e38c433f6c);
+        
+    
+        var popup_c29f034ec09794157f985efd630855b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f790491b596b3abb46f5944a1cbda748 = $(`<div id="html_f790491b596b3abb46f5944a1cbda748" style="width: 100.0%; height: 100.0%;"><b>United States</b><br>Golf Courses: 16752<br>🌧️ Precipitation: 715 mm/year<br>🌡️ Temperature: 11.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_c29f034ec09794157f985efd630855b1.setContent(html_f790491b596b3abb46f5944a1cbda748);
+        
+
+        marker_5ab08b0fbf9905f2078ca4212d10546e.bindPopup(popup_c29f034ec09794157f985efd630855b1)
+        ;
+
+        
+    
+    
+            var marker_a2605cad3709edfb79325b79aab98ca9 = L.marker(
+                [56.1304, -106.3468],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_cbc03b76dbf80d96ec4c01c8a4424519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2605cad3709edfb79325b79aab98ca9.setIcon(icon_cbc03b76dbf80d96ec4c01c8a4424519);
+        
+    
+        var popup_2215568f07605a21efdf6f6512bf0675 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39105e50761bb69c7755d1b11409dc39 = $(`<div id="html_39105e50761bb69c7755d1b11409dc39" style="width: 100.0%; height: 100.0%;"><b>Canada</b><br>Golf Courses: 2633<br>🌧️ Precipitation: 537 mm/year<br>🌡️ Temperature: -5.4 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_2215568f07605a21efdf6f6512bf0675.setContent(html_39105e50761bb69c7755d1b11409dc39);
+        
+
+        marker_a2605cad3709edfb79325b79aab98ca9.bindPopup(popup_2215568f07605a21efdf6f6512bf0675)
+        ;
+
+        
+    
+    
+            var marker_590be61982f29f155285625c519b5cc0 = L.marker(
+                [36.2048, 138.2529],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_cbb2b683103f29ab02adda9ac44f107c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_590be61982f29f155285625c519b5cc0.setIcon(icon_cbb2b683103f29ab02adda9ac44f107c);
+        
+    
+        var popup_c221abc76e0bc3cd8c21603d6ad11c08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d012bfbd3516a1b16e5ff0738334cdc = $(`<div id="html_6d012bfbd3516a1b16e5ff0738334cdc" style="width: 100.0%; height: 100.0%;"><b>Japan</b><br>Golf Courses: 3169<br>🌧️ Precipitation: 1670 mm/year<br>🌡️ Temperature: 11.9 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_c221abc76e0bc3cd8c21603d6ad11c08.setContent(html_6d012bfbd3516a1b16e5ff0738334cdc);
+        
+
+        marker_590be61982f29f155285625c519b5cc0.bindPopup(popup_c221abc76e0bc3cd8c21603d6ad11c08)
+        ;
+
+        
+    
+    
+            var marker_785b440da69b8a57cbedb4b442ecb36b = L.marker(
+                [52.3555, -1.1743],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_75e842826d54833c977450a53bfd3c3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_785b440da69b8a57cbedb4b442ecb36b.setIcon(icon_75e842826d54833c977450a53bfd3c3e);
+        
+    
+        var popup_d568f5ff758dee8a6dce595423f26e07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53610d10d4c504100ff2adeb23710475 = $(`<div id="html_53610d10d4c504100ff2adeb23710475" style="width: 100.0%; height: 100.0%;"><b>England</b><br>Golf Courses: 2270<br>🌧️ Precipitation: 1150 mm/year<br>🌡️ Temperature: 10.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_d568f5ff758dee8a6dce595423f26e07.setContent(html_53610d10d4c504100ff2adeb23710475);
+        
+
+        marker_785b440da69b8a57cbedb4b442ecb36b.bindPopup(popup_d568f5ff758dee8a6dce595423f26e07)
+        ;
+
+        
+    
+    
+            var marker_ce1dadd3be5345769153ed0ae585064c = L.marker(
+                [-25.2744, 133.7751],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_02349866bfe2a89636603b2373059db6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ce1dadd3be5345769153ed0ae585064c.setIcon(icon_02349866bfe2a89636603b2373059db6);
+        
+    
+        var popup_6c72263311df4ef9997ef7b2abdd6d87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bc1e534186d1a569a15eea3199f271a = $(`<div id="html_7bc1e534186d1a569a15eea3199f271a" style="width: 100.0%; height: 100.0%;"><b>Australia</b><br>Golf Courses: 1616<br>🌧️ Precipitation: 534 mm/year<br>🌡️ Temperature: 21.8 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_6c72263311df4ef9997ef7b2abdd6d87.setContent(html_7bc1e534186d1a569a15eea3199f271a);
+        
+
+        marker_ce1dadd3be5345769153ed0ae585064c.bindPopup(popup_6c72263311df4ef9997ef7b2abdd6d87)
+        ;
+
+        
+    
+    
+            var marker_6d06f072ac41745d06c3887eaa63cfbe = L.marker(
+                [35.9078, 127.7669],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_c6604a5c25c1878333b9c5e3c0ac8e4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6d06f072ac41745d06c3887eaa63cfbe.setIcon(icon_c6604a5c25c1878333b9c5e3c0ac8e4d);
+        
+    
+        var popup_73421e31c644abcc50c19cab5121e2f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb1985f62a6b12a57851b6e2649074b7 = $(`<div id="html_bb1985f62a6b12a57851b6e2649074b7" style="width: 100.0%; height: 100.0%;"><b>South Korea</b><br>Golf Courses: 798<br>🌧️ Precipitation: 1260 mm/year<br>🌡️ Temperature: 12.8 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_73421e31c644abcc50c19cab5121e2f4.setContent(html_bb1985f62a6b12a57851b6e2649074b7);
+        
+
+        marker_6d06f072ac41745d06c3887eaa63cfbe.bindPopup(popup_73421e31c644abcc50c19cab5121e2f4)
+        ;
+
+        
+    
+    
+            var marker_ee04362ee39515a48adc68541982a803 = L.marker(
+                [35.8617, 104.1954],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_a74ed89add92e7d287485d7d599c7d2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ee04362ee39515a48adc68541982a803.setIcon(icon_a74ed89add92e7d287485d7d599c7d2b);
+        
+    
+        var popup_a9950fb36cf47d38d840d4561caef38f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76e7bdd7cde8caa62346eb77ddd6d646 = $(`<div id="html_76e7bdd7cde8caa62346eb77ddd6d646" style="width: 100.0%; height: 100.0%;"><b>China</b><br>Golf Courses: 599<br>🌧️ Precipitation: 645 mm/year<br>🌡️ Temperature: 6.9 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_a9950fb36cf47d38d840d4561caef38f.setContent(html_76e7bdd7cde8caa62346eb77ddd6d646);
+        
+
+        marker_ee04362ee39515a48adc68541982a803.bindPopup(popup_a9950fb36cf47d38d840d4561caef38f)
+        ;
+
+        
+    
+    
+            var marker_9fbdb9328b911efc5304642c1e590bc9 = L.marker(
+                [-30.5595, 22.9375],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_e84cb74273e63059c35dd296e5514f81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9fbdb9328b911efc5304642c1e590bc9.setIcon(icon_e84cb74273e63059c35dd296e5514f81);
+        
+    
+        var popup_7fa651e918ce35b18be751c83dce5b2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f465df7efc91b65ee34ecec916b0840 = $(`<div id="html_0f465df7efc91b65ee34ecec916b0840" style="width: 100.0%; height: 100.0%;"><b>South Africa</b><br>Golf Courses: 489<br>🌧️ Precipitation: 495 mm/year<br>🌡️ Temperature: 17.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_7fa651e918ce35b18be751c83dce5b2a.setContent(html_0f465df7efc91b65ee34ecec916b0840);
+        
+
+        marker_9fbdb9328b911efc5304642c1e590bc9.bindPopup(popup_7fa651e918ce35b18be751c83dce5b2a)
+        ;
+
+        
+    
+    
+            var marker_021f19e8852ecde9473567c162b25af7 = L.marker(
+                [-40.9006, 174.8859],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_c439f03290931969c743a824ea8bfddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_021f19e8852ecde9473567c162b25af7.setIcon(icon_c439f03290931969c743a824ea8bfddc);
+        
+    
+        var popup_a961a5eddbc14d488b7769863b9edd7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2652af4d7254c5818e6bd344c0b8ffcb = $(`<div id="html_2652af4d7254c5818e6bd344c0b8ffcb" style="width: 100.0%; height: 100.0%;"><b>New Zealand</b><br>Golf Courses: 418<br>🌧️ Precipitation: 1050 mm/year<br>🌡️ Temperature: 10.6 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_a961a5eddbc14d488b7769863b9edd7b.setContent(html_2652af4d7254c5818e6bd344c0b8ffcb);
+        
+
+        marker_021f19e8852ecde9473567c162b25af7.bindPopup(popup_a961a5eddbc14d488b7769863b9edd7b)
+        ;
+
+        
+    
+    
+            var marker_a1c5899c21f54e01488a7580c8f79577 = L.marker(
+                [-38.4161, -63.6167],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_d390952d05d71dc0852dd72cdd6f9370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a1c5899c21f54e01488a7580c8f79577.setIcon(icon_d390952d05d71dc0852dd72cdd6f9370);
+        
+    
+        var popup_d8a4bfe8aece19b73161c6715bee3c61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e00c6950fd61aaa9a0bd53a25887588c = $(`<div id="html_e00c6950fd61aaa9a0bd53a25887588c" style="width: 100.0%; height: 100.0%;"><b>Argentina</b><br>Golf Courses: 349<br>🌧️ Precipitation: 591 mm/year<br>🌡️ Temperature: 14.8 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_d8a4bfe8aece19b73161c6715bee3c61.setContent(html_e00c6950fd61aaa9a0bd53a25887588c);
+        
+
+        marker_a1c5899c21f54e01488a7580c8f79577.bindPopup(popup_d8a4bfe8aece19b73161c6715bee3c61)
+        ;
+
+        
+    
+    
+            var marker_4934a47783558953422c3af8ed6dba4b = L.marker(
+                [56.2639, 9.5018],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_68c391b93172bf5b5650247f75eb021b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4934a47783558953422c3af8ed6dba4b.setIcon(icon_68c391b93172bf5b5650247f75eb021b);
+        
+    
+        var popup_9180aaa698fb3146fe0859b8fc3719be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d4c083e52320f9efca5cc5abab8c6cf = $(`<div id="html_3d4c083e52320f9efca5cc5abab8c6cf" style="width: 100.0%; height: 100.0%;"><b>Denmark</b><br>Golf Courses: 346<br>🌧️ Precipitation: 765 mm/year<br>🌡️ Temperature: 8.3 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_9180aaa698fb3146fe0859b8fc3719be.setContent(html_3d4c083e52320f9efca5cc5abab8c6cf);
+        
+
+        marker_4934a47783558953422c3af8ed6dba4b.bindPopup(popup_9180aaa698fb3146fe0859b8fc3719be)
+        ;
+
+        
+    
+    
+            var marker_f88e7eefe0fa70d83c66537469f52075 = L.marker(
+                [15.87, 100.9925],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_d4f79633239c0043c787ec49de875368 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f88e7eefe0fa70d83c66537469f52075.setIcon(icon_d4f79633239c0043c787ec49de875368);
+        
+    
+        var popup_8ad6c298070b9376bf62ac66e1a06cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edaafb9f41451a71172942b7945e81f0 = $(`<div id="html_edaafb9f41451a71172942b7945e81f0" style="width: 100.0%; height: 100.0%;"><b>Thailand</b><br>Golf Courses: 315<br>🌧️ Precipitation: 1491 mm/year<br>🌡️ Temperature: 27.7 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_8ad6c298070b9376bf62ac66e1a06cd4.setContent(html_edaafb9f41451a71172942b7945e81f0);
+        
+
+        marker_f88e7eefe0fa70d83c66537469f52075.bindPopup(popup_8ad6c298070b9376bf62ac66e1a06cd4)
+        ;
+
+        
+    
+    
+            var marker_1685b2c9b175b09a026cd313862be32d = L.marker(
+                [36.7783, -119.4179],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_6c342465f29fa3623114b7b0b6842103 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1685b2c9b175b09a026cd313862be32d.setIcon(icon_6c342465f29fa3623114b7b0b6842103);
+        
+    
+        var popup_8b3535f5af9566f20399a4e8ba3920ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27966df4506e85194415e18d5244c9a9 = $(`<div id="html_27966df4506e85194415e18d5244c9a9" style="width: 100.0%; height: 100.0%;"><b>California</b><br>Golf Courses: 921<br>🌧️ Precipitation: 559 mm/year<br>🌡️ Temperature: 15.2 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_8b3535f5af9566f20399a4e8ba3920ff.setContent(html_27966df4506e85194415e18d5244c9a9);
+        
+
+        marker_1685b2c9b175b09a026cd313862be32d.bindPopup(popup_8b3535f5af9566f20399a4e8ba3920ff)
+        ;
+
+        
+    
+    
+            var marker_ad8674f4048b949d1fcdcc8389658129 = L.marker(
+                [27.9944, -81.7603],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_99627f0f94f551534110db9227d62f91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ad8674f4048b949d1fcdcc8389658129.setIcon(icon_99627f0f94f551534110db9227d62f91);
+        
+    
+        var popup_87024b72ea863c2d111c0e60616f920b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_689eddeb7e69c76b92ee93b90f727432 = $(`<div id="html_689eddeb7e69c76b92ee93b90f727432" style="width: 100.0%; height: 100.0%;"><b>Florida</b><br>Golf Courses: 1121<br>🌧️ Precipitation: 1372 mm/year<br>🌡️ Temperature: 23.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_87024b72ea863c2d111c0e60616f920b.setContent(html_689eddeb7e69c76b92ee93b90f727432);
+        
+
+        marker_ad8674f4048b949d1fcdcc8389658129.bindPopup(popup_87024b72ea863c2d111c0e60616f920b)
+        ;
+
+        
+    
+    
+            var marker_d75805b8db899714d0c9ef0108dda343 = L.marker(
+                [31.9686, -99.9018],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b3ae6e97d275922412af811554957870 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d75805b8db899714d0c9ef0108dda343.setIcon(icon_b3ae6e97d275922412af811554957870);
+        
+    
+        var popup_134acde3e3063fee60d099050407ec2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25be965332ecd577a71f142bf758917b = $(`<div id="html_25be965332ecd577a71f142bf758917b" style="width: 100.0%; height: 100.0%;"><b>Texas</b><br>Golf Courses: 900<br>🌧️ Precipitation: 883 mm/year<br>🌡️ Temperature: 20.1 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_134acde3e3063fee60d099050407ec2a.setContent(html_25be965332ecd577a71f142bf758917b);
+        
+
+        marker_d75805b8db899714d0c9ef0108dda343.bindPopup(popup_134acde3e3063fee60d099050407ec2a)
+        ;
+
+        
+    
+    
+            var marker_d66bdb79ffa2bcd717e15b000d155085 = L.marker(
+                [43.2994, -74.2179],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b93c8cbaeae2f31f1d6daa50c3f19beb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d66bdb79ffa2bcd717e15b000d155085.setIcon(icon_b93c8cbaeae2f31f1d6daa50c3f19beb);
+        
+    
+        var popup_f6ca28a2e0d27be009ad9a942c6ea9b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb8b1a4cc96e34da50d6ba63b290164c = $(`<div id="html_bb8b1a4cc96e34da50d6ba63b290164c" style="width: 100.0%; height: 100.0%;"><b>New York</b><br>Golf Courses: 832<br>🌧️ Precipitation: 1059 mm/year<br>🌡️ Temperature: 9.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_f6ca28a2e0d27be009ad9a942c6ea9b9.setContent(html_bb8b1a4cc96e34da50d6ba63b290164c);
+        
+
+        marker_d66bdb79ffa2bcd717e15b000d155085.bindPopup(popup_f6ca28a2e0d27be009ad9a942c6ea9b9)
+        ;
+
+        
+    
+    
+            var marker_9e9f9e3d0a9b7f268a2baaf5e8f63ee1 = L.marker(
+                [34.0489, -111.0937],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_57a01716fce5a10a1afdd6c2d8da51dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e9f9e3d0a9b7f268a2baaf5e8f63ee1.setIcon(icon_57a01716fce5a10a1afdd6c2d8da51dd);
+        
+    
+        var popup_27e03438932d9e43d5cdac1ff5acebb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb36306c75268543c14a8efed0dd09d6 = $(`<div id="html_cb36306c75268543c14a8efed0dd09d6" style="width: 100.0%; height: 100.0%;"><b>Arizona</b><br>Golf Courses: 370<br>🌧️ Precipitation: 324 mm/year<br>🌡️ Temperature: 22.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_27e03438932d9e43d5cdac1ff5acebb1.setContent(html_cb36306c75268543c14a8efed0dd09d6);
+        
+
+        marker_9e9f9e3d0a9b7f268a2baaf5e8f63ee1.bindPopup(popup_27e03438932d9e43d5cdac1ff5acebb1)
+        ;
+
+        
+    
+    
+            var marker_d71ec36e680d1473ce25cce46c905f5c = L.marker(
+                [40.6331, -89.3985],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_ab1072663538e37ca477a4cf7f967085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d71ec36e680d1473ce25cce46c905f5c.setIcon(icon_ab1072663538e37ca477a4cf7f967085);
+        
+    
+        var popup_14b7c0f6ecc45a00b94aacb23d40e0cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faf8586be88471228e4763b5cf41d283 = $(`<div id="html_faf8586be88471228e4763b5cf41d283" style="width: 100.0%; height: 100.0%;"><b>Illinois</b><br>Golf Courses: 708<br>🌧️ Precipitation: 992 mm/year<br>🌡️ Temperature: 10.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_14b7c0f6ecc45a00b94aacb23d40e0cf.setContent(html_faf8586be88471228e4763b5cf41d283);
+        
+
+        marker_d71ec36e680d1473ce25cce46c905f5c.bindPopup(popup_14b7c0f6ecc45a00b94aacb23d40e0cf)
+        ;
+
+        
+    
+    
+            var marker_7906f81092f7688bd05461040f6cf986 = L.marker(
+                [35.7596, -79.0193],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_f710dd42fa9bd9099d6cf0dfe34c2f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7906f81092f7688bd05461040f6cf986.setIcon(icon_f710dd42fa9bd9099d6cf0dfe34c2f7d);
+        
+    
+        var popup_5fa6264cb0d6d3ef5af1addf61fa170a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d41366f4cef118777dacf72913b6c809 = $(`<div id="html_d41366f4cef118777dacf72913b6c809" style="width: 100.0%; height: 100.0%;"><b>North Carolina</b><br>Golf Courses: 600<br>🌧️ Precipitation: 1200 mm/year<br>🌡️ Temperature: 16.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_5fa6264cb0d6d3ef5af1addf61fa170a.setContent(html_d41366f4cef118777dacf72913b6c809);
+        
+
+        marker_7906f81092f7688bd05461040f6cf986.bindPopup(popup_5fa6264cb0d6d3ef5af1addf61fa170a)
+        ;
+
+        
+    
+    
+            var marker_f028c14a5b4d588c8618ea5d88d1efc4 = L.marker(
+                [44.3148, -85.6024],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_19f957419b6804937ba37c5610b048e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f028c14a5b4d588c8618ea5d88d1efc4.setIcon(icon_19f957419b6804937ba37c5610b048e5);
+        
+    
+        var popup_bd2c68f18319da8a67f43344d3527e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_125eefab81b7757e588836a4888c1ae5 = $(`<div id="html_125eefab81b7757e588836a4888c1ae5" style="width: 100.0%; height: 100.0%;"><b>Michigan</b><br>Golf Courses: 775<br>🌧️ Precipitation: 850 mm/year<br>🌡️ Temperature: 8.4 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_bd2c68f18319da8a67f43344d3527e66.setContent(html_125eefab81b7757e588836a4888c1ae5);
+        
+
+        marker_f028c14a5b4d588c8618ea5d88d1efc4.bindPopup(popup_bd2c68f18319da8a67f43344d3527e66)
+        ;
+
+        
+    
+    
+            var marker_4adfb94d6cdf5473fc7b8347acfe4d4b = L.marker(
+                [32.1656, -82.9001],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_8b401f15909ab5dc8be467becab88d76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4adfb94d6cdf5473fc7b8347acfe4d4b.setIcon(icon_8b401f15909ab5dc8be467becab88d76);
+        
+    
+        var popup_3d2c9033ee345a48fdfb66813d8617d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5dbfff97f4a1c62b7d0417fc5872a22 = $(`<div id="html_f5dbfff97f4a1c62b7d0417fc5872a22" style="width: 100.0%; height: 100.0%;"><b>Georgia</b><br>Golf Courses: 550<br>🌧️ Precipitation: 1250 mm/year<br>🌡️ Temperature: 18.3 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_3d2c9033ee345a48fdfb66813d8617d8.setContent(html_f5dbfff97f4a1c62b7d0417fc5872a22);
+        
+
+        marker_4adfb94d6cdf5473fc7b8347acfe4d4b.bindPopup(popup_3d2c9033ee345a48fdfb66813d8617d8)
+        ;
+
+        
+    
+    
+            var marker_1c4eed024450ff1af730f706a6c9f3d8 = L.marker(
+                [33.8361, -81.1637],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_ebfa65959e0ff9b9d14420e566fca47d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c4eed024450ff1af730f706a6c9f3d8.setIcon(icon_ebfa65959e0ff9b9d14420e566fca47d);
+        
+    
+        var popup_7ec562a87e2d9ae29c58698b47945a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33608e25673c5d22ec70a78a8e99ac5a = $(`<div id="html_33608e25673c5d22ec70a78a8e99ac5a" style="width: 100.0%; height: 100.0%;"><b>South Carolina</b><br>Golf Courses: 405<br>🌧️ Precipitation: 1300 mm/year<br>🌡️ Temperature: 17.8 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_7ec562a87e2d9ae29c58698b47945a6a.setContent(html_33608e25673c5d22ec70a78a8e99ac5a);
+        
+
+        marker_1c4eed024450ff1af730f706a6c9f3d8.bindPopup(popup_7ec562a87e2d9ae29c58698b47945a6a)
+        ;
+
+        
+    
+    
+            var marker_979f3c08207446b4e58c264dcdc22aa5 = L.marker(
+                [-33.8688, 151.2093],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b24dda68ffba896df302c2342688d81f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_979f3c08207446b4e58c264dcdc22aa5.setIcon(icon_b24dda68ffba896df302c2342688d81f);
+        
+    
+        var popup_0fd0129ab513f9e9198848c99e11c1ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa4364fba421ea766344c874768e9f84 = $(`<div id="html_aa4364fba421ea766344c874768e9f84" style="width: 100.0%; height: 100.0%;"><b>New South Wales</b><br>Golf Courses: 380<br>🌧️ Precipitation: 1215 mm/year<br>🌡️ Temperature: 17.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_0fd0129ab513f9e9198848c99e11c1ea.setContent(html_aa4364fba421ea766344c874768e9f84);
+        
+
+        marker_979f3c08207446b4e58c264dcdc22aa5.bindPopup(popup_0fd0129ab513f9e9198848c99e11c1ea)
+        ;
+
+        
+    
+    
+            var marker_9e2f21ab7fa9e2c3125f66d0225bdba3 = L.marker(
+                [-37.8136, 144.9631],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b77b0eec029cc571fcdcc665720629a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9e2f21ab7fa9e2c3125f66d0225bdba3.setIcon(icon_b77b0eec029cc571fcdcc665720629a3);
+        
+    
+        var popup_02d3590720dd54e36085063d0855eef6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f53a83102cf1a51a91a8bd0d51bd784 = $(`<div id="html_6f53a83102cf1a51a91a8bd0d51bd784" style="width: 100.0%; height: 100.0%;"><b>Victoria</b><br>Golf Courses: 320<br>🌧️ Precipitation: 1100 mm/year<br>🌡️ Temperature: 15.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_02d3590720dd54e36085063d0855eef6.setContent(html_6f53a83102cf1a51a91a8bd0d51bd784);
+        
+
+        marker_9e2f21ab7fa9e2c3125f66d0225bdba3.bindPopup(popup_02d3590720dd54e36085063d0855eef6)
+        ;
+
+        
+    
+    
+            var marker_a8ab4f5e8ec46bd750c47d1b9b55a51d = L.marker(
+                [-27.4698, 153.0251],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_2923bb4abda84a3ef160638837d1ccdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8ab4f5e8ec46bd750c47d1b9b55a51d.setIcon(icon_2923bb4abda84a3ef160638837d1ccdb);
+        
+    
+        var popup_c8fe623373b0b6375673f1e9fa08ea5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35b939ef793c915e9e5c350abf629821 = $(`<div id="html_35b939ef793c915e9e5c350abf629821" style="width: 100.0%; height: 100.0%;"><b>Queensland</b><br>Golf Courses: 300<br>🌧️ Precipitation: 1300 mm/year<br>🌡️ Temperature: 22.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_c8fe623373b0b6375673f1e9fa08ea5f.setContent(html_35b939ef793c915e9e5c350abf629821);
+        
+
+        marker_a8ab4f5e8ec46bd750c47d1b9b55a51d.bindPopup(popup_c8fe623373b0b6375673f1e9fa08ea5f)
+        ;
+
+        
+    
+    
+            var marker_e1a96b4c3fbf05ad9966fc0a90688ff3 = L.marker(
+                [-31.9505, 115.8605],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_858ce9b2030f1ba088a804c2337e7ec5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e1a96b4c3fbf05ad9966fc0a90688ff3.setIcon(icon_858ce9b2030f1ba088a804c2337e7ec5);
+        
+    
+        var popup_cfee6e2d58135f084fbc27d9af1d964d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9742a8e543cf3dd0daf919ae41fd5fc3 = $(`<div id="html_9742a8e543cf3dd0daf919ae41fd5fc3" style="width: 100.0%; height: 100.0%;"><b>Western Australia</b><br>Golf Courses: 180<br>🌧️ Precipitation: 600 mm/year<br>🌡️ Temperature: 19.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_cfee6e2d58135f084fbc27d9af1d964d.setContent(html_9742a8e543cf3dd0daf919ae41fd5fc3);
+        
+
+        marker_e1a96b4c3fbf05ad9966fc0a90688ff3.bindPopup(popup_cfee6e2d58135f084fbc27d9af1d964d)
+        ;
+
+        
+    
+    
+            var marker_0001b1525b5437e322a19626839a1329 = L.marker(
+                [-34.9285, 138.6007],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_df983b71a2bcefc09521c31e4f2e9be2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0001b1525b5437e322a19626839a1329.setIcon(icon_df983b71a2bcefc09521c31e4f2e9be2);
+        
+    
+        var popup_2c80506d5f2b3773b7cd5ca7628c2e2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a9728e48e4fe882df4063905c0b3809 = $(`<div id="html_5a9728e48e4fe882df4063905c0b3809" style="width: 100.0%; height: 100.0%;"><b>South Australia</b><br>Golf Courses: 140<br>🌧️ Precipitation: 440 mm/year<br>🌡️ Temperature: 17.2 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_2c80506d5f2b3773b7cd5ca7628c2e2a.setContent(html_5a9728e48e4fe882df4063905c0b3809);
+        
+
+        marker_0001b1525b5437e322a19626839a1329.bindPopup(popup_2c80506d5f2b3773b7cd5ca7628c2e2a)
+        ;
+
+        
+    
+    
+            var marker_6f92ce4168bde83f7d70f4326bfc15b5 = L.marker(
+                [51.2538, -85.3232],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b2f4d941c10b7f8122dd425a3d8fdb75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6f92ce4168bde83f7d70f4326bfc15b5.setIcon(icon_b2f4d941c10b7f8122dd425a3d8fdb75);
+        
+    
+        var popup_cdae2dd579ba3b7f82925572789b894e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a897f0910ee31d812e248205b5974ab = $(`<div id="html_5a897f0910ee31d812e248205b5974ab" style="width: 100.0%; height: 100.0%;"><b>Ontario</b><br>Golf Courses: 860<br>🌧️ Precipitation: 920 mm/year<br>🌡️ Temperature: 6.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_cdae2dd579ba3b7f82925572789b894e.setContent(html_5a897f0910ee31d812e248205b5974ab);
+        
+
+        marker_6f92ce4168bde83f7d70f4326bfc15b5.bindPopup(popup_cdae2dd579ba3b7f82925572789b894e)
+        ;
+
+        
+    
+    
+            var marker_248334f7e7640e00357454591f67f4b0 = L.marker(
+                [53.7267, -127.6476],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_014a315a295c037251c8729254835b5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_248334f7e7640e00357454591f67f4b0.setIcon(icon_014a315a295c037251c8729254835b5c);
+        
+    
+        var popup_222f83656d37f7ce8fb34bfbb229261d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33be9004d5fc6348bbe82b8431dfb412 = $(`<div id="html_33be9004d5fc6348bbe82b8431dfb412" style="width: 100.0%; height: 100.0%;"><b>British Columbia</b><br>Golf Courses: 300<br>🌧️ Precipitation: 1150 mm/year<br>🌡️ Temperature: 9.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_222f83656d37f7ce8fb34bfbb229261d.setContent(html_33be9004d5fc6348bbe82b8431dfb412);
+        
+
+        marker_248334f7e7640e00357454591f67f4b0.bindPopup(popup_222f83656d37f7ce8fb34bfbb229261d)
+        ;
+
+        
+    
+    
+            var marker_b2dcf9506aa4fcec2c58aaf08dde2830 = L.marker(
+                [52.9399, -73.5491],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_ff1c891eeb8f0b0ca0195a73696ab18d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2dcf9506aa4fcec2c58aaf08dde2830.setIcon(icon_ff1c891eeb8f0b0ca0195a73696ab18d);
+        
+    
+        var popup_9d65c1a908d7c75eb624020066c5d91b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1af8333b92c4f51ab6b20aa90ac278c = $(`<div id="html_e1af8333b92c4f51ab6b20aa90ac278c" style="width: 100.0%; height: 100.0%;"><b>Quebec</b><br>Golf Courses: 360<br>🌧️ Precipitation: 1000 mm/year<br>🌡️ Temperature: 5.5 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_9d65c1a908d7c75eb624020066c5d91b.setContent(html_e1af8333b92c4f51ab6b20aa90ac278c);
+        
+
+        marker_b2dcf9506aa4fcec2c58aaf08dde2830.bindPopup(popup_9d65c1a908d7c75eb624020066c5d91b)
+        ;
+
+        
+    
+    
+            var marker_fd0162e61eaa2633b73d7f44d21ef493 = L.marker(
+                [53.9333, -116.5765],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_0bae98c2ab6e44311241157667072085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fd0162e61eaa2633b73d7f44d21ef493.setIcon(icon_0bae98c2ab6e44311241157667072085);
+        
+    
+        var popup_2ff7661de4e03f82291b3c4dc5675889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3d7b1b86486c06a0f6ca406780db13c = $(`<div id="html_d3d7b1b86486c06a0f6ca406780db13c" style="width: 100.0%; height: 100.0%;"><b>Alberta</b><br>Golf Courses: 250<br>🌧️ Precipitation: 470 mm/year<br>🌡️ Temperature: 4.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_2ff7661de4e03f82291b3c4dc5675889.setContent(html_d3d7b1b86486c06a0f6ca406780db13c);
+        
+
+        marker_fd0162e61eaa2633b73d7f44d21ef493.bindPopup(popup_2ff7661de4e03f82291b3c4dc5675889)
+        ;
+
+        
+    
+    
+            var marker_b3c204164d279980f82a0482aeb30700 = L.marker(
+                [44.682, -63.7443],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_2ef04533a5130f328ec1a127d00b6ec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3c204164d279980f82a0482aeb30700.setIcon(icon_2ef04533a5130f328ec1a127d00b6ec4);
+        
+    
+        var popup_232b3db05302212549c804c444b71565 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54ddfa82805372eb570aa6a8ef2326fd = $(`<div id="html_54ddfa82805372eb570aa6a8ef2326fd" style="width: 100.0%; height: 100.0%;"><b>Nova Scotia</b><br>Golf Courses: 90<br>🌧️ Precipitation: 1190 mm/year<br>🌡️ Temperature: 6.8 °C<br>💧 Evapotranspiration: Low<br>🔥 Drought Risk: Low</div>`)[0];
+            popup_232b3db05302212549c804c444b71565.setContent(html_54ddfa82805372eb570aa6a8ef2326fd);
+        
+
+        marker_b3c204164d279980f82a0482aeb30700.bindPopup(popup_232b3db05302212549c804c444b71565)
+        ;
+
+        
+    
+    
+            var marker_6ebc1e243dc0dcb03348702a59337cd6 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_6c4d044e797886605a0e1be707d0e9b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ebc1e243dc0dcb03348702a59337cd6.setIcon(icon_6c4d044e797886605a0e1be707d0e9b8);
+        
+    
+        var popup_7c94ef1ffe674b1f3f846d49e7fb4bd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86e1ec9c889de61f755a22c581f1554a = $(`<div id="html_86e1ec9c889de61f755a22c581f1554a" style="width: 100.0%; height: 100.0%;"><b>São Paulo</b><br>Golf Courses: 110<br>🌧️ Precipitation: 1400 mm/year<br>🌡️ Temperature: 22.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_7c94ef1ffe674b1f3f846d49e7fb4bd1.setContent(html_86e1ec9c889de61f755a22c581f1554a);
+        
+
+        marker_6ebc1e243dc0dcb03348702a59337cd6.bindPopup(popup_7c94ef1ffe674b1f3f846d49e7fb4bd1)
+        ;
+
+        
+    
+    
+            var marker_f8674282994de4611cc8e90b037f8dea = L.marker(
+                [-22.9068, -43.1729],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_0aaca2ced59ae871796f9bdf168555aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f8674282994de4611cc8e90b037f8dea.setIcon(icon_0aaca2ced59ae871796f9bdf168555aa);
+        
+    
+        var popup_7406a004c43450d32d3f6e1d2cf90518 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cd3a368516ea06cd6ec28ea85be98d5 = $(`<div id="html_9cd3a368516ea06cd6ec28ea85be98d5" style="width: 100.0%; height: 100.0%;"><b>Rio de Janeiro</b><br>Golf Courses: 70<br>🌧️ Precipitation: 1200 mm/year<br>🌡️ Temperature: 23.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_7406a004c43450d32d3f6e1d2cf90518.setContent(html_9cd3a368516ea06cd6ec28ea85be98d5);
+        
+
+        marker_f8674282994de4611cc8e90b037f8dea.bindPopup(popup_7406a004c43450d32d3f6e1d2cf90518)
+        ;
+
+        
+    
+    
+            var marker_65c5951d8df063d25328d73e950c8b99 = L.marker(
+                [-19.9167, -43.9345],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_9b1094b4f2a1f14d331735417ebf3745 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_65c5951d8df063d25328d73e950c8b99.setIcon(icon_9b1094b4f2a1f14d331735417ebf3745);
+        
+    
+        var popup_ad16664984701867be9dd893bf780f57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07c3241d1feb979203b38c0afde77ed9 = $(`<div id="html_07c3241d1feb979203b38c0afde77ed9" style="width: 100.0%; height: 100.0%;"><b>Minas Gerais</b><br>Golf Courses: 85<br>🌧️ Precipitation: 1300 mm/year<br>🌡️ Temperature: 22.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_ad16664984701867be9dd893bf780f57.setContent(html_07c3241d1feb979203b38c0afde77ed9);
+        
+
+        marker_65c5951d8df063d25328d73e950c8b99.bindPopup(popup_ad16664984701867be9dd893bf780f57)
+        ;
+
+        
+    
+    
+            var marker_7590aa8dd97e394b85ac4b7580f89e25 = L.marker(
+                [-25.4284, -49.2731],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_6e29eb3ec9194f1b8c7729cadec95a79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7590aa8dd97e394b85ac4b7580f89e25.setIcon(icon_6e29eb3ec9194f1b8c7729cadec95a79);
+        
+    
+        var popup_4191cf16d9864327bd61d4bbf8385c00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78a25b2601db6485d11ce520556b3680 = $(`<div id="html_78a25b2601db6485d11ce520556b3680" style="width: 100.0%; height: 100.0%;"><b>Paraná</b><br>Golf Courses: 60<br>🌧️ Precipitation: 1350 mm/year<br>🌡️ Temperature: 20.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_4191cf16d9864327bd61d4bbf8385c00.setContent(html_78a25b2601db6485d11ce520556b3680);
+        
+
+        marker_7590aa8dd97e394b85ac4b7580f89e25.bindPopup(popup_4191cf16d9864327bd61d4bbf8385c00)
+        ;
+
+        
+    
+    
+            var marker_9c51dc75d6b1d87b562124694598a085 = L.marker(
+                [-30.0346, -51.2177],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_59bdf4edd84724721f37ce5dc214b1c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9c51dc75d6b1d87b562124694598a085.setIcon(icon_59bdf4edd84724721f37ce5dc214b1c6);
+        
+    
+        var popup_ee48438bb6bea3fe870c1d21a1006ebb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51cddcabac9aa3ef3a21b34fdfeca60a = $(`<div id="html_51cddcabac9aa3ef3a21b34fdfeca60a" style="width: 100.0%; height: 100.0%;"><b>Rio Grande do Sul</b><br>Golf Courses: 55<br>🌧️ Precipitation: 1400 mm/year<br>🌡️ Temperature: 19.8 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_ee48438bb6bea3fe870c1d21a1006ebb.setContent(html_51cddcabac9aa3ef3a21b34fdfeca60a);
+        
+
+        marker_9c51dc75d6b1d87b562124694598a085.bindPopup(popup_ee48438bb6bea3fe870c1d21a1006ebb)
+        ;
+
+        
+    
+    
+            var marker_67b326f691f63e263a6a57569275fcb1 = L.marker(
+                [23.379, 113.7633],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_aefccb155b6221fcb46226b122d48dca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67b326f691f63e263a6a57569275fcb1.setIcon(icon_aefccb155b6221fcb46226b122d48dca);
+        
+    
+        var popup_0f9a834dc3fcf3a3cf042bcd8c800813 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fee60ff912ad8d7c1943bcf7c5e70abb = $(`<div id="html_fee60ff912ad8d7c1943bcf7c5e70abb" style="width: 100.0%; height: 100.0%;"><b>Guangdong</b><br>Golf Courses: 90<br>🌧️ Precipitation: 1700 mm/year<br>🌡️ Temperature: 22.2 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_0f9a834dc3fcf3a3cf042bcd8c800813.setContent(html_fee60ff912ad8d7c1943bcf7c5e70abb);
+        
+
+        marker_67b326f691f63e263a6a57569275fcb1.bindPopup(popup_0f9a834dc3fcf3a3cf042bcd8c800813)
+        ;
+
+        
+    
+    
+            var marker_218b1d51f17c56861e0978e213758071 = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_df4b4f7b93d968ed4ebb78e6bf0d487d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_218b1d51f17c56861e0978e213758071.setIcon(icon_df4b4f7b93d968ed4ebb78e6bf0d487d);
+        
+    
+        var popup_d1d987024da4f411cc6d8af6fbf08e44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a3d51df79a5ea1b2dbb0154d87859d = $(`<div id="html_07a3d51df79a5ea1b2dbb0154d87859d" style="width: 100.0%; height: 100.0%;"><b>Beijing</b><br>Golf Courses: 35<br>🌧️ Precipitation: 585 mm/year<br>🌡️ Temperature: 12.9 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_d1d987024da4f411cc6d8af6fbf08e44.setContent(html_07a3d51df79a5ea1b2dbb0154d87859d);
+        
+
+        marker_218b1d51f17c56861e0978e213758071.bindPopup(popup_d1d987024da4f411cc6d8af6fbf08e44)
+        ;
+
+        
+    
+    
+            var marker_e4bcb5d0ef58e61fc32cd2a0180aa50d = L.marker(
+                [31.2304, 121.4737],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_aaec13d9507bc37312171b4ba8cfc4d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e4bcb5d0ef58e61fc32cd2a0180aa50d.setIcon(icon_aaec13d9507bc37312171b4ba8cfc4d8);
+        
+    
+        var popup_108373ebd7ab8950b1008a3d43825e2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fda51076a15279f05de8a15553d5bfec = $(`<div id="html_fda51076a15279f05de8a15553d5bfec" style="width: 100.0%; height: 100.0%;"><b>Shanghai</b><br>Golf Courses: 40<br>🌧️ Precipitation: 1145 mm/year<br>🌡️ Temperature: 17.6 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_108373ebd7ab8950b1008a3d43825e2d.setContent(html_fda51076a15279f05de8a15553d5bfec);
+        
+
+        marker_e4bcb5d0ef58e61fc32cd2a0180aa50d.bindPopup(popup_108373ebd7ab8950b1008a3d43825e2d)
+        ;
+
+        
+    
+    
+            var marker_6b2b0e3e8c64038612b67a46ae2ab081 = L.marker(
+                [30.2674, 120.1528],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_8df69f70e56b62cb484d68805a4f74e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b2b0e3e8c64038612b67a46ae2ab081.setIcon(icon_8df69f70e56b62cb484d68805a4f74e9);
+        
+    
+        var popup_1d31b0d70eb161e50694785f0609e508 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee3eb7548f15a13314391c49bb13b451 = $(`<div id="html_ee3eb7548f15a13314391c49bb13b451" style="width: 100.0%; height: 100.0%;"><b>Zhejiang</b><br>Golf Courses: 25<br>🌧️ Precipitation: 1460 mm/year<br>🌡️ Temperature: 18.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_1d31b0d70eb161e50694785f0609e508.setContent(html_ee3eb7548f15a13314391c49bb13b451);
+        
+
+        marker_6b2b0e3e8c64038612b67a46ae2ab081.bindPopup(popup_1d31b0d70eb161e50694785f0609e508)
+        ;
+
+        
+    
+    
+            var marker_617e3ca92d0bbd0937b6343bfdf21679 = L.marker(
+                [36.6683, 117.0204],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_4982613059f9a953906a27f0d04bc601 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_617e3ca92d0bbd0937b6343bfdf21679.setIcon(icon_4982613059f9a953906a27f0d04bc601);
+        
+    
+        var popup_52b8b206e6356aad3ab2f80b8e64096d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4f206a7eb2c2805aee4d4f984ae9c0f = $(`<div id="html_b4f206a7eb2c2805aee4d4f984ae9c0f" style="width: 100.0%; height: 100.0%;"><b>Shandong</b><br>Golf Courses: 30<br>🌧️ Precipitation: 624 mm/year<br>🌡️ Temperature: 13.3 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_52b8b206e6356aad3ab2f80b8e64096d.setContent(html_b4f206a7eb2c2805aee4d4f984ae9c0f);
+        
+
+        marker_617e3ca92d0bbd0937b6343bfdf21679.bindPopup(popup_52b8b206e6356aad3ab2f80b8e64096d)
+        ;
+
+        
+    
+    
+            var marker_fec2f83d90968e0f2a1e46da68daa039 = L.marker(
+                [-26.2708, 28.1123],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_29b715746625097ba229ec4560694669 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fec2f83d90968e0f2a1e46da68daa039.setIcon(icon_29b715746625097ba229ec4560694669);
+        
+    
+        var popup_0f2dc0818e646e854b65123bef11fd7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84321171a7b7cddc3082fe7e1ab09d5a = $(`<div id="html_84321171a7b7cddc3082fe7e1ab09d5a" style="width: 100.0%; height: 100.0%;"><b>Gauteng</b><br>Golf Courses: 65<br>🌧️ Precipitation: 730 mm/year<br>🌡️ Temperature: 17.5 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_0f2dc0818e646e854b65123bef11fd7a.setContent(html_84321171a7b7cddc3082fe7e1ab09d5a);
+        
+
+        marker_fec2f83d90968e0f2a1e46da68daa039.bindPopup(popup_0f2dc0818e646e854b65123bef11fd7a)
+        ;
+
+        
+    
+    
+            var marker_2b8a28c2624c888241c94146e3f678c2 = L.marker(
+                [-33.9249, 18.4241],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b36bca6745301a5a32a479fafcdc5d30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2b8a28c2624c888241c94146e3f678c2.setIcon(icon_b36bca6745301a5a32a479fafcdc5d30);
+        
+    
+        var popup_6480dea827ea4d8b182117c949ce634e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71da9530c1789f5fce5a02adf804b053 = $(`<div id="html_71da9530c1789f5fce5a02adf804b053" style="width: 100.0%; height: 100.0%;"><b>Western Cape</b><br>Golf Courses: 50<br>🌧️ Precipitation: 515 mm/year<br>🌡️ Temperature: 16.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_6480dea827ea4d8b182117c949ce634e.setContent(html_71da9530c1789f5fce5a02adf804b053);
+        
+
+        marker_2b8a28c2624c888241c94146e3f678c2.bindPopup(popup_6480dea827ea4d8b182117c949ce634e)
+        ;
+
+        
+    
+    
+            var marker_a26d4893f33aecdd4fdc2991de522649 = L.marker(
+                [-29.8587, 31.0218],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_b992d0712fa8da861e85df4a3de81d3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a26d4893f33aecdd4fdc2991de522649.setIcon(icon_b992d0712fa8da861e85df4a3de81d3b);
+        
+    
+        var popup_2be9737ea341e6b41aaca3f651160971 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3435e737aa7597a6c32e28b123136c0 = $(`<div id="html_a3435e737aa7597a6c32e28b123136c0" style="width: 100.0%; height: 100.0%;"><b>KwaZulu-Natal</b><br>Golf Courses: 45<br>🌧️ Precipitation: 1020 mm/year<br>🌡️ Temperature: 20.2 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_2be9737ea341e6b41aaca3f651160971.setContent(html_a3435e737aa7597a6c32e28b123136c0);
+        
+
+        marker_a26d4893f33aecdd4fdc2991de522649.bindPopup(popup_2be9737ea341e6b41aaca3f651160971)
+        ;
+
+        
+    
+    
+            var marker_7fe5f6d315ff3c9253f1e8beca548196 = L.marker(
+                [-32.2968, 26.4194],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_1af7f984a16263246f53844b0e9b53ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7fe5f6d315ff3c9253f1e8beca548196.setIcon(icon_1af7f984a16263246f53844b0e9b53ee);
+        
+    
+        var popup_9735424f2f2cd97fd8353e067fac20ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4839dfd9c831bdf83ee8d170a2232811 = $(`<div id="html_4839dfd9c831bdf83ee8d170a2232811" style="width: 100.0%; height: 100.0%;"><b>Eastern Cape</b><br>Golf Courses: 30<br>🌧️ Precipitation: 850 mm/year<br>🌡️ Temperature: 18.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_9735424f2f2cd97fd8353e067fac20ec.setContent(html_4839dfd9c831bdf83ee8d170a2232811);
+        
+
+        marker_7fe5f6d315ff3c9253f1e8beca548196.bindPopup(popup_9735424f2f2cd97fd8353e067fac20ec)
+        ;
+
+        
+    
+    
+            var marker_67734f4975f9faca3143b6114658cbc6 = L.marker(
+                [-23.4015, 29.4179],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_ed075ce7324f8fceaa7d0180d8267fc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67734f4975f9faca3143b6114658cbc6.setIcon(icon_ed075ce7324f8fceaa7d0180d8267fc8);
+        
+    
+        var popup_bcfdc53c91f784960cb7b6065cdb5507 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45f86baeea7d7a54e6f45919b15de992 = $(`<div id="html_45f86baeea7d7a54e6f45919b15de992" style="width: 100.0%; height: 100.0%;"><b>Limpopo</b><br>Golf Courses: 20<br>🌧️ Precipitation: 580 mm/year<br>🌡️ Temperature: 22.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_bcfdc53c91f784960cb7b6065cdb5507.setContent(html_45f86baeea7d7a54e6f45919b15de992);
+        
+
+        marker_67734f4975f9faca3143b6114658cbc6.bindPopup(popup_bcfdc53c91f784960cb7b6065cdb5507)
+        ;
+
+        
+    
+    
+            var marker_6c8fda828e1eaca4aaf88a534eb24bee = L.marker(
+                [19.7515, 75.7139],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_257721a8bdc130ded622de8aada81854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c8fda828e1eaca4aaf88a534eb24bee.setIcon(icon_257721a8bdc130ded622de8aada81854);
+        
+    
+        var popup_c9dbff3e658a3c55508300bfcc9a1dc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caf5ffbfd777572e60646504bebde567 = $(`<div id="html_caf5ffbfd777572e60646504bebde567" style="width: 100.0%; height: 100.0%;"><b>Maharashtra</b><br>Golf Courses: 40<br>🌧️ Precipitation: 840 mm/year<br>🌡️ Temperature: 27.2 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_c9dbff3e658a3c55508300bfcc9a1dc6.setContent(html_caf5ffbfd777572e60646504bebde567);
+        
+
+        marker_6c8fda828e1eaca4aaf88a534eb24bee.bindPopup(popup_c9dbff3e658a3c55508300bfcc9a1dc6)
+        ;
+
+        
+    
+    
+            var marker_f9e5ed0289d5df88e1f8434eccf8f920 = L.marker(
+                [15.3173, 75.7139],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_9195d706560538dd1d3de011b7f6fca2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9e5ed0289d5df88e1f8434eccf8f920.setIcon(icon_9195d706560538dd1d3de011b7f6fca2);
+        
+    
+        var popup_c08bc6968beeb6ea8a70f8f0b84acde5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07adfcf657af7aa48fd82733a3cfaaab = $(`<div id="html_07adfcf657af7aa48fd82733a3cfaaab" style="width: 100.0%; height: 100.0%;"><b>Karnataka</b><br>Golf Courses: 35<br>🌧️ Precipitation: 970 mm/year<br>🌡️ Temperature: 26.5 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_c08bc6968beeb6ea8a70f8f0b84acde5.setContent(html_07adfcf657af7aa48fd82733a3cfaaab);
+        
+
+        marker_f9e5ed0289d5df88e1f8434eccf8f920.bindPopup(popup_c08bc6968beeb6ea8a70f8f0b84acde5)
+        ;
+
+        
+    
+    
+            var marker_fde6c3b9a0716eeb4f02d83e205ab8ef = L.marker(
+                [11.1271, 78.6569],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_8e75b35b1cf9947b8dc8d0d47cdb8f61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fde6c3b9a0716eeb4f02d83e205ab8ef.setIcon(icon_8e75b35b1cf9947b8dc8d0d47cdb8f61);
+        
+    
+        var popup_7b885d0e1795502de409ac72a272c0ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd480aa0d422684dc7e132fbd293977f = $(`<div id="html_dd480aa0d422684dc7e132fbd293977f" style="width: 100.0%; height: 100.0%;"><b>Tamil Nadu</b><br>Golf Courses: 30<br>🌧️ Precipitation: 945 mm/year<br>🌡️ Temperature: 27.0 °C<br>💧 Evapotranspiration: High<br>🔥 Drought Risk: High</div>`)[0];
+            popup_7b885d0e1795502de409ac72a272c0ae.setContent(html_dd480aa0d422684dc7e132fbd293977f);
+        
+
+        marker_fde6c3b9a0716eeb4f02d83e205ab8ef.bindPopup(popup_7b885d0e1795502de409ac72a272c0ae)
+        ;
+
+        
+    
+    
+            var marker_b94adf5efec01127ff80275fdbf31ecd = L.marker(
+                [28.7041, 77.1025],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_75f36bb991fbca86595ff2c3e4638515 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b94adf5efec01127ff80275fdbf31ecd.setIcon(icon_75f36bb991fbca86595ff2c3e4638515);
+        
+    
+        var popup_d73dd33b106271b8d109d44b11f3de78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65b2681df3454aaf448eeec438623be0 = $(`<div id="html_65b2681df3454aaf448eeec438623be0" style="width: 100.0%; height: 100.0%;"><b>Delhi</b><br>Golf Courses: 20<br>🌧️ Precipitation: 805 mm/year<br>🌡️ Temperature: 25.0 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_d73dd33b106271b8d109d44b11f3de78.setContent(html_65b2681df3454aaf448eeec438623be0);
+        
+
+        marker_b94adf5efec01127ff80275fdbf31ecd.bindPopup(popup_d73dd33b106271b8d109d44b11f3de78)
+        ;
+
+        
+    
+    
+            var marker_4ce7cc32bc277581e6d09f4f701a4cc1 = L.marker(
+                [31.1471, 75.3412],
+                {}
+            ).addTo(marker_cluster_73d45edf3fb18be4cca4cccf17d160ab);
+        
+    
+            var icon_1c9410a4f46ad0c9e6fc8099e60150fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4ce7cc32bc277581e6d09f4f701a4cc1.setIcon(icon_1c9410a4f46ad0c9e6fc8099e60150fa);
+        
+    
+        var popup_389a06fc582d30af905f32c2113737dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68d5e8ececcaacd1e71a6063f399f470 = $(`<div id="html_68d5e8ececcaacd1e71a6063f399f470" style="width: 100.0%; height: 100.0%;"><b>Punjab</b><br>Golf Courses: 25<br>🌧️ Precipitation: 730 mm/year<br>🌡️ Temperature: 24.3 °C<br>💧 Evapotranspiration: Moderate<br>🔥 Drought Risk: Moderate</div>`)[0];
+            popup_389a06fc582d30af905f32c2113737dd.setContent(html_68d5e8ececcaacd1e71a6063f399f470);
+        
+
+        marker_4ce7cc32bc277581e6d09f4f701a4cc1.bindPopup(popup_389a06fc582d30af905f32c2113737dd)
+        ;
+
+        
+    
+</script>
+</html>
